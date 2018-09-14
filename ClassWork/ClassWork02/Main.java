@@ -105,7 +105,7 @@ public class Main implements IntListInterface {
             theList[0] = valueToAdd;
             return true;
         } else {
-            // what should we do here, if there's no room?
+           
         }
         return false;
     }
@@ -126,9 +126,10 @@ public class Main implements IntListInterface {
         System.out.println( list.removeValueAtIndex( 3 ) );   // should return the value 7
         System.out.println( list.getValueAtIndex( 3 ) );      // should return the value 11
         System.out.println( list.getValueAtIndex( 18 ) );
-        System.out.println( list.checkIndex( 18 ) );
         System.out.println( list.insertValueAtIndex(5,18 ) );
         System.out.println( list.prepend( 18 ) );
+         System.out.println( list.checkIndex( 18 ) );
 
     }
 }
+
